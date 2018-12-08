@@ -1,5 +1,5 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
-<%@page import="cn.frame.platform.entitys.MemberInfo;"%>
+<%@page import="cn.frame.platform.entitys.MemberInfo"%>
  <%
   HttpSession  memberSession= request.getSession();
   MemberInfo memberInfo =(MemberInfo)memberSession.getAttribute("memberSessionInfo");
