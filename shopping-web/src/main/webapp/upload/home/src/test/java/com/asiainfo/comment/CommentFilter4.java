@@ -1,4 +1,4 @@
-package com.asiainfo.comment;
+package com.lfinfo.comment;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;

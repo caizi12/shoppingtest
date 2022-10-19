@@ -1,12 +1,10 @@
-package ngves.asiainfo.core.award;
-
-import ngves.asiainfo.core.CoreSrvContstant;
-import ngves.asiainfo.core.award.ivalues.IQBOWareQueryInfoValue;
-import ngves.asiainfo.core.award.service.interfaces.IAwardLevelInfoSrv;
-
-import org.junit.Test;
+package ngves.lfinfo.core.award;
 
 import com.ai.appframe2.service.ServiceFactory;
+import ngves.lfinfo.core.CoreSrvContstant;
+import ngves.lfinfo.core.award.ivalues.IQBOWareQueryInfoValue;
+import ngves.lfinfo.core.award.service.interfaces.IAwardLevelInfoSrv;
+import org.junit.Test;
 public class AwardLevelInfoSrvTest {
 	
 	private IAwardLevelInfoSrv  infoSrv = (IAwardLevelInfoSrv)ServiceFactory.getService(CoreSrvContstant.SERVICE_CORE_AWARD_LEVEL_INFO);

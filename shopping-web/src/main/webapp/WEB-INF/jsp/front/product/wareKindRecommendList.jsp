@@ -1,15 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
-<%@ page import="ngves.asiainfo.core.common.ivalues.IQBORecommCategoryWareInfoValue"%>
+<%@ page import="ngves.lfinfo.core.common.ivalues.IQBORecommCategoryWareInfoValue"%>
 <%@ page import="org.apache.commons.lang.StringUtils"%>
-<%@ page import="ngves.asiainfo.portal.ware.WareParamConstant"%>
-<%@ page import="ngves.asiainfo.portal.common.util.WareShowUtil"%>
-<%@ page import="ngves.asiainfo.portal.PortalConstant"%>
-<%@ page import="ngves.asiainfo.portal.ware.ivalues.IQBOWareKindParentValue"%>
-<%@ page import="ngves.asiainfo.portal.ware.model.RecommCategoryBean"%>
-<%@ page import="ngves.asiainfo.portal.common.util.WareKindUtil"%>
+<%@ page import="ngves.lfinfo.portal.ware.WareParamConstant"%>
+<%@ page import="ngves.lfinfo.portal.common.util.WareShowUtil"%>
+<%@ page import="ngves.lfinfo.portal.PortalConstant"%>
+<%@ page import="ngves.lfinfo.portal.ware.ivalues.IQBOWareKindParentValue"%>
+<%@ page import="ngves.lfinfo.portal.ware.model.RecommCategoryBean"%>
+<%@ page import="ngves.lfinfo.portal.common.util.WareKindUtil"%>
 <%@ page import="java.util.*"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ page import="ngves.asiainfo.core.CoreConstant"%>
+<%@ page import="ngves.lfinfo.core.CoreConstant"%>
 <%
 	String path = request.getContextPath();
     String kindType=request.getParameter("kindType");

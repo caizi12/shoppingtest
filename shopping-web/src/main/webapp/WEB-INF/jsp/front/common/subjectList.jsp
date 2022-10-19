@@ -1,14 +1,14 @@
 <%@ page language="java" pageEncoding="UTF-8" %>
-<%@ page import="ngves.asiainfo.portal.ware.WareParamConstant" %>
-<%@ page import="ngves.asiainfo.core.common.ivalues.IWareKindInfoValue" %>
-<%@ page import="ngves.asiainfo.core.common.ivalues.IWareFirstKindRltValue" %>
-<%@ page import="ngves.asiainfo.portal.ware.ivalues.IQBOWareKindParentValue"%>
-<%@ page import="ngves.asiainfo.portal.ware.ivalues.IQBOWareKindValue"%>
-<%@ page import="ngves.asiainfo.portal.ware.web.WareGuideAction" %>
-<%@ page import="ngves.asiainfo.core.common.ivalues.IQBOWareKindParentRltValue"%>
+<%@ page import="ngves.lfinfo.portal.ware.WareParamConstant" %>
+<%@ page import="ngves.lfinfo.core.common.ivalues.IWareKindInfoValue" %>
+<%@ page import="ngves.lfinfo.core.common.ivalues.IWareFirstKindRltValue" %>
+<%@ page import="ngves.lfinfo.portal.ware.ivalues.IQBOWareKindParentValue"%>
+<%@ page import="ngves.lfinfo.portal.ware.ivalues.IQBOWareKindValue"%>
+<%@ page import="ngves.lfinfo.portal.ware.web.WareGuideAction" %>
+<%@ page import="ngves.lfinfo.core.common.ivalues.IQBOWareKindParentRltValue"%>
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="java.util.List"%>
-<%@ page import="ngves.asiainfo.portal.common.util.WareKindUtil"%>
+<%@ page import="ngves.lfinfo.portal.common.util.WareKindUtil"%>
 <%@ taglib uri="/WEB-INF/portal-taglib.tld" prefix="portal" %>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves" %>
 <%@ page import="org.apache.commons.lang.StringUtils"%>

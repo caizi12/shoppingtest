@@ -1,14 +1,14 @@
 <%@ page import="java.util.*" contentType="text/html; charset=utf-8"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ page import="ngves.asiainfo.portal.user.model.SessionInfoValue"%>
-<%@ page import="ngves.asiainfo.portal.common.util.SNAUtil"%>
-<%@ page import="ngves.asiainfo.portal.m.MobileConstant"%>
-<%@ page import="ngves.asiainfo.portal.user.model.RegionBean"%>
-<%@ page import="ngves.asiainfo.portal.common.util.RegionInfoUtil"%>
-<%@ page import="ngves.asiainfo.portal.common.util.PropertyReader"%>
-<%@ page import="ngves.asiainfo.util.StringUtil"%>
+<%@ page import="ngves.lfinfo.portal.user.model.SessionInfoValue"%>
+<%@ page import="ngves.lfinfo.portal.common.util.SNAUtil"%>
+<%@ page import="ngves.lfinfo.portal.m.MobileConstant"%>
+<%@ page import="ngves.lfinfo.portal.user.model.RegionBean"%>
+<%@ page import="ngves.lfinfo.portal.common.util.RegionInfoUtil"%>
+<%@ page import="ngves.lfinfo.portal.common.util.PropertyReader"%>
+<%@ page import="ngves.lfinfo.util.StringUtil"%>
 <%@ page import="com.google.gson.Gson"%>
-<%@ page import="ngves.asiainfo.portal.user.ivalues.IUserAddrValue" %>
+<%@ page import="ngves.lfinfo.portal.user.ivalues.IUserAddrValue" %>
 <%@ page import="org.apache.commons.lang.StringUtils"%>
 
 <%

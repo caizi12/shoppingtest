@@ -1,26 +1,26 @@
 <%@ page import="java.util.*" contentType="text/html; charset=utf-8"%>
-<%@ page import="ngves.asiainfo.portal.user.model.SessionInfoValue"%>
-<%@ page import="ngves.asiainfo.portal.common.util.SNAUtil"%>
-<%@ page import="ngves.asiainfo.portal.m.MobileConstant"%>
-<%@ page import="ngves.asiainfo.portal.order.OrderConstant" %>
-<%@ page import="ngves.asiainfo.portal.order.model.NoPayOrderBean" %>
-<%@ page import="ngves.asiainfo.portal.order.model.NormalOrderBean" %>
-<%@ page import="ngves.asiainfo.portal.order.model.PayInfoBean" %>
-<%@ page import="ngves.asiainfo.portal.order.model.ItemPayInfo" %>
-<%@ page import="ngves.asiainfo.portal.order.model.PackageListInfo" %>
-<%@ page import="ngves.asiainfo.portal.order.model.StackPackageBean" %>
-<%@ page import="ngves.asiainfo.portal.order.model.DelivInfo" %>
-<%@ page import="ngves.asiainfo.portal.order.model.WareInfo" %>
-<%@ page import="ngves.asiainfo.util.StringUtil" %>
-<%@ page import="ngves.asiainfo.portal.rushbuy.web.RushWareDetailFunc" %>
-<%@ page import="ngves.asiainfo.portal.PortalConstant" %>
+<%@ page import="ngves.lfinfo.portal.user.model.SessionInfoValue"%>
+<%@ page import="ngves.lfinfo.portal.common.util.SNAUtil"%>
+<%@ page import="ngves.lfinfo.portal.m.MobileConstant"%>
+<%@ page import="ngves.lfinfo.portal.order.OrderConstant" %>
+<%@ page import="ngves.lfinfo.portal.order.model.NoPayOrderBean" %>
+<%@ page import="ngves.lfinfo.portal.order.model.NormalOrderBean" %>
+<%@ page import="ngves.lfinfo.portal.order.model.PayInfoBean" %>
+<%@ page import="ngves.lfinfo.portal.order.model.ItemPayInfo" %>
+<%@ page import="ngves.lfinfo.portal.order.model.PackageListInfo" %>
+<%@ page import="ngves.lfinfo.portal.order.model.StackPackageBean" %>
+<%@ page import="ngves.lfinfo.portal.order.model.DelivInfo" %>
+<%@ page import="ngves.lfinfo.portal.order.model.WareInfo" %>
+<%@ page import="ngves.lfinfo.util.StringUtil" %>
+<%@ page import="ngves.lfinfo.portal.rushbuy.web.RushWareDetailFunc" %>
+<%@ page import="ngves.lfinfo.portal.PortalConstant" %>
 <%@ page import="org.apache.commons.lang.StringUtils" %>
-<%@ page import="ngves.asiainfo.portal.common.util.*" %>
-<%@ page import="ngves.asiainfo.portal.ware.WareParamConstant" %>
-<%@ page import="ngves.asiainfo.portal.ware.bo.WareInfoPortalBean" %>
+<%@ page import="ngves.lfinfo.portal.common.util.*" %>
+<%@ page import="ngves.lfinfo.portal.ware.WareParamConstant" %>
+<%@ page import="ngves.lfinfo.portal.ware.bo.WareInfoPortalBean" %>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves" %>
-<%@ page import="ngves.asiainfo.core.CoreConstant" %>
-<%@ page import="ngves.asiainfo.portal.PortalCodeConstant"%>
+<%@ page import="ngves.lfinfo.core.CoreConstant" %>
+<%@ page import="ngves.lfinfo.portal.PortalCodeConstant"%>
 
 <!DOCTYPE html>
 <%

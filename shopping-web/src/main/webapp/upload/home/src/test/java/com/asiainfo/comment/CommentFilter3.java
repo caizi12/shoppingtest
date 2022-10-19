@@ -1,6 +1,4 @@
-package com.asiainfo.comment;
-
-import java.util.*;
+package com.lfinfo.comment;
 
 /**
  * 正则表达式法

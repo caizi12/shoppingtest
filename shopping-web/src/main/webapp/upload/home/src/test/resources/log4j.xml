@@ -8,7 +8,7 @@
 		</layout>
 	</appender>
 
-	<appender name="ngves_asiainfo" class="org.apache.log4j.RollingFileAppender">
+	<appender name="ngves_lfinfo" class="org.apache.log4j.RollingFileAppender">
 		<param name="Threshold" value="DEBUG" />
 		<param name="Append" value="true" />
 		<param name="MaxFileSize" value="1MB" />
@@ -43,7 +43,7 @@
 		</layout>
 	</appender>	
 
-	<logger name="ngves.asiainfo">
+	<logger name="ngves.lfinfo">
 		<level value="info" />
 		<appender-ref ref="stdout" />
 	</logger>

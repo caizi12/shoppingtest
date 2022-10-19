@@ -1,9 +1,9 @@
 <%@ page import="java.util.*" contentType="text/html; charset=utf-8"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ page import="ngves.asiainfo.portal.common.util.WareShowUtil"%>
-<%@page import="ngves.asiainfo.portal.ware.WareParamConstant"%>
-<%@page import="ngves.asiainfo.portal.PortalConstant"%>
-<%@ page import="ngves.asiainfo.portal.common.util.UrlUtil"%>
+<%@ page import="ngves.lfinfo.portal.common.util.WareShowUtil"%>
+<%@page import="ngves.lfinfo.portal.ware.WareParamConstant"%>
+<%@page import="ngves.lfinfo.portal.PortalConstant"%>
+<%@ page import="ngves.lfinfo.portal.common.util.UrlUtil"%>
 
 <!DOCTYPE html>
 <%

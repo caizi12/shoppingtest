@@ -1,27 +1,27 @@
 <%@ page contentType="text/html; charset=utf-8"%>
-<%@page import="ngves.asiainfo.portal.order.ivalues.IQBOUserShopInfoValue"%>
-<%@page import="ngves.asiainfo.portal.order.OrderConstant"%>
-<%@page import="ngves.asiainfo.portal.ware.web.WareTypeShowRecommendAction"%>
-<%@page import="ngves.asiainfo.portal.ware.WareParamConstant"%>
-<%@page import="ngves.asiainfo.portal.common.util.UrlUtil" %>
-<%@page import="ngves.asiainfo.portal.common.util.SNAUtil"%>
-<%@page import="ngves.asiainfo.portal.util.TuanView"%>
+<%@page import="ngves.lfinfo.portal.order.ivalues.IQBOUserShopInfoValue"%>
+<%@page import="ngves.lfinfo.portal.order.OrderConstant"%>
+<%@page import="ngves.lfinfo.portal.ware.web.WareTypeShowRecommendAction"%>
+<%@page import="ngves.lfinfo.portal.ware.WareParamConstant"%>
+<%@page import="ngves.lfinfo.portal.common.util.UrlUtil" %>
+<%@page import="ngves.lfinfo.portal.common.util.SNAUtil"%>
+<%@page import="ngves.lfinfo.portal.util.TuanView"%>
 <%@page import="java.util.List"%>
 <%@page import="java.math.BigDecimal"%>
-<%@page import="ngves.asiainfo.CommnConstant"%>
-<%@page import="ngves.asiainfo.portal.common.util.WareShowUtil" %>
+<%@page import="ngves.lfinfo.CommnConstant"%>
+<%@page import="ngves.lfinfo.portal.common.util.WareShowUtil" %>
 <%@taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ taglib prefix="portal" uri="www.asiainfo.cmcc.portal.com" %>
-<%@page import="ngves.asiainfo.portal.common.domain.WareVO"%>
-<%@page import="ngves.asiainfo.portal.util.WareViewUtil"%>
-<%@page import="ngves.asiainfo.portal.PortalConstant"%>
-<%@ page import="ngves.asiainfo.util.StringUtil" %>
-<%@ page import="ngves.asiainfo.portal.util.VOSearchWareConverter" %>
-<%@ page import="ngves.asiainfo.portal.util.JspViewUtil" %>
-<%@page import="ngves.asiainfo.portal.PortalCodeConstant"%>
+<%@ taglib prefix="portal" uri="www.lfinfo.cmcc.portal.com" %>
+<%@page import="ngves.lfinfo.portal.common.domain.WareVO"%>
+<%@page import="ngves.lfinfo.portal.util.WareViewUtil"%>
+<%@page import="ngves.lfinfo.portal.PortalConstant"%>
+<%@ page import="ngves.lfinfo.util.StringUtil" %>
+<%@ page import="ngves.lfinfo.portal.util.VOSearchWareConverter" %>
+<%@ page import="ngves.lfinfo.portal.util.JspViewUtil" %>
+<%@page import="ngves.lfinfo.portal.PortalCodeConstant"%>
 
-<%@page import="ngves.asiainfo.portal.util.WareViewUtil"%>
-<%@page import="ngves.asiainfo.portal.ware.ivalues.IWareInfoPortalValue"%>
+<%@page import="ngves.lfinfo.portal.util.WareViewUtil"%>
+<%@page import="ngves.lfinfo.portal.ware.ivalues.IWareInfoPortalValue"%>
 <%
 //未登录 购物车
 String path = request.getContextPath();
@@ -41,7 +41,7 @@ String sumCash = null;
 long sumCashL = 0L;
 long sumAmount =0L;
 
-String shopCartAction = path + "/portal/ngves.asiainfo.portal.order.web.ShoppingCartAction?action=";
+String shopCartAction = path + "/portal/ngves.lfinfo.portal.order.web.ShoppingCartAction?action=";
 String accountAction = path + "/portal/user/web/UserAccountAction?action=";
 // 记录促销类礼品的条数
 int index = 0;

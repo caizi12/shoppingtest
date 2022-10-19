@@ -8,7 +8,7 @@
   <ConfigItem name="MainWebPageUrl" remarks="web程序主页面url" >/webframe/shdesktopui/WebAppFrameSet.jsp</ConfigItem>
   <ConfigItem name="LoginOutPageUrl" remarks="web框架的Loginout页面url" >/webframe/Loginout.jsp</ConfigItem>
   <ConfigItem name="LoginInPageUrl" remarks="web框架的Loginout页面url" >/index.jsp</ConfigItem>
-  <ConfigItem name="UserManagerClass" remarks="用户登陆的实现类" >ngves.asiainfo.mgt.system.web.UserManager</ConfigItem>
+  <ConfigItem name="UserManagerClass" remarks="用户登陆的实现类" >ngves.lfinfo.mgt.system.web.UserManager</ConfigItem>
   <ConfigItem name="BusinessAttrManagerClass" remarks="管控获取业务属性的管理类,要求实现BusinessAttrManager" ></ConfigItem>
   <ConfigItem name="HostIPPrefix" remarks="为了获取主机的有些IP地址，需要根据前缀获得有些IP,例如10.9" ></ConfigItem>
   <ConfigItem name="ENHANCE_PACKAGE" remarks="需要增强的包" >demo</ConfigItem>

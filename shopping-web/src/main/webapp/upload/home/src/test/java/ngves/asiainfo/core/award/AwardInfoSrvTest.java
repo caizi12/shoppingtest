@@ -1,23 +1,21 @@
-package ngves.asiainfo.core.award;
-
-import static org.junit.Assert.assertEquals;
+package ngves.lfinfo.core.award;
 
 import java.sql.Timestamp;
 import java.util.Date;
-
-import ngves.asiainfo.CommnConstant;
-import ngves.asiainfo.core.CoreSrvContstant;
-import ngves.asiainfo.core.award.ivalues.IAwardInfoValue;
-import ngves.asiainfo.core.award.service.interfaces.IAwardInfoSrv;
-import ngves.asiainfo.util.DateTimeUtil;
-
-import org.junit.Before;
-import org.junit.Test;
 
 import com.ai.appframe2.common.SessionManager;
 import com.ai.appframe2.privilege.UserInfoInterface;
 import com.ai.appframe2.service.ServiceFactory;
 import com.ai.secframe.bean.sysmgr.UserInfoDefaultImpl;
+import ngves.lfinfo.CommnConstant;
+import ngves.lfinfo.core.CoreSrvContstant;
+import ngves.lfinfo.core.award.ivalues.IAwardInfoValue;
+import ngves.lfinfo.core.award.service.interfaces.IAwardInfoSrv;
+import ngves.lfinfo.util.DateTimeUtil;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class AwardInfoSrvTest {
 	

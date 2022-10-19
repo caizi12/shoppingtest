@@ -1,11 +1,11 @@
 <%@ page language="java" pageEncoding="UTF-8"  %>
-<%@ page import="ngves.asiainfo.portal.ware.web.WareTypeShowRecommendAction"%>
-<%@ page import="ngves.asiainfo.portal.PortalConstant"%>
-<%@ page import="ngves.asiainfo.portal.ware.WareParamConstant"%>
-<%@ page import="ngves.asiainfo.core.common.ivalues.IRecommCategoryInfoValue"%>
-<%@ page import="ngves.asiainfo.portal.ware.ivalues.IWareInfoPortalValue"%>
+<%@ page import="ngves.lfinfo.portal.ware.web.WareTypeShowRecommendAction"%>
+<%@ page import="ngves.lfinfo.portal.PortalConstant"%>
+<%@ page import="ngves.lfinfo.portal.ware.WareParamConstant"%>
+<%@ page import="ngves.lfinfo.core.common.ivalues.IRecommCategoryInfoValue"%>
+<%@ page import="ngves.lfinfo.portal.ware.ivalues.IWareInfoPortalValue"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ page import="ngves.asiainfo.portal.common.util.WareShowUtil"%>
+<%@ page import="ngves.lfinfo.portal.common.util.WareShowUtil"%>
 <%
 	//全球通主推礼品
 	IRecommCategoryInfoValue fgRecommCategory = WareTypeShowRecommendAction.getRecommCategroyInfoByType(WareParamConstant.BRAND_GOTONE);

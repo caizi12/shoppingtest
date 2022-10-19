@@ -1,10 +1,10 @@
 <%@ page import="java.util.*" contentType="text/html; charset=utf-8"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ page import="ngves.asiainfo.portal.user.ivalues.IQBOUserAddrValue"%>
+<%@ page import="ngves.lfinfo.portal.user.ivalues.IQBOUserAddrValue"%>
 <%@ page import="org.apache.commons.lang.StringUtils"%>
-<%@ page import="ngves.asiainfo.portal.user.model.SessionInfoValue"%>
-<%@ page import="ngves.asiainfo.portal.common.util.SNAUtil"%>
-<%@ page import="ngves.asiainfo.portal.m.MobileConstant"%>
+<%@ page import="ngves.lfinfo.portal.user.model.SessionInfoValue"%>
+<%@ page import="ngves.lfinfo.portal.common.util.SNAUtil"%>
+<%@ page import="ngves.lfinfo.portal.m.MobileConstant"%>
 
 <%
 	IQBOUserAddrValue[] userAddrInfo = (IQBOUserAddrValue[]) request.getAttribute("userAddrInfo");

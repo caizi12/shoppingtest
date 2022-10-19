@@ -1,19 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="ngves.asiainfo.core.ware.util.PermissionWareViewUtil" %>
-<%@ page import="ngves.asiainfo.portal.common.domain.WareVO"%>
-<%@ page import="ngves.asiainfo.portal.util.WareViewUtil"%>
-<%@ page import="ngves.asiainfo.portal.ware.WareParamConstant" %>
-<%@ page import="ngves.asiainfo.portal.order.OrderConstant" %>
-<%@ page import="ngves.asiainfo.portal.user.model.SessionInfoValue" %>
-<%@ page import="ngves.asiainfo.portal.common.util.SNAUtil" %>
-<%@ page import="ngves.asiainfo.util.StringUtil"%>
-<%@ page import="ngves.asiainfo.portal.common.util.WareShowUtil"%>
-<%@ page import="ngves.asiainfo.portal.PortalConstant"%>
+<%@ page import="ngves.lfinfo.core.ware.util.PermissionWareViewUtil" %>
+<%@ page import="ngves.lfinfo.portal.common.domain.WareVO"%>
+<%@ page import="ngves.lfinfo.portal.util.WareViewUtil"%>
+<%@ page import="ngves.lfinfo.portal.ware.WareParamConstant" %>
+<%@ page import="ngves.lfinfo.portal.order.OrderConstant" %>
+<%@ page import="ngves.lfinfo.portal.user.model.SessionInfoValue" %>
+<%@ page import="ngves.lfinfo.portal.common.util.SNAUtil" %>
+<%@ page import="ngves.lfinfo.util.StringUtil"%>
+<%@ page import="ngves.lfinfo.portal.common.util.WareShowUtil"%>
+<%@ page import="ngves.lfinfo.portal.PortalConstant"%>
 <%@ page import="java.util.List"%>
-<%@page import="ngves.asiainfo.StarUtil"%>
-<%@ page import="ngves.asiainfo.core.ware.model.PermissionWare"%>
-<%@ page import="ngves.asiainfo.util.PropertyReader"%>
-<%@ page import="ngves.asiainfo.core.CoreConstant"%>
+<%@page import="ngves.lfinfo.StarUtil"%>
+<%@ page import="ngves.lfinfo.core.ware.model.PermissionWare"%>
+<%@ page import="ngves.lfinfo.util.PropertyReader"%>
+<%@ page import="ngves.lfinfo.core.CoreConstant"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
 <%

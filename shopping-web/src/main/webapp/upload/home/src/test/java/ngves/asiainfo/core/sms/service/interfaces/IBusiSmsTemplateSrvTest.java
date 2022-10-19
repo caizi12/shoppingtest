@@ -1,15 +1,13 @@
-package ngves.asiainfo.core.sms.service.interfaces;
-
-import ngves.asiainfo.core.sms.SmsConstant;
-import ngves.asiainfo.core.sms.bo.SmsTemplateBean;
-import ngves.asiainfo.core.sms.dao.interfaces.IBusiSmsTemplateDAO;
-import ngves.asiainfo.core.sms.ivalues.IBusiSmsTemplateValue;
-import ngves.asiainfo.core.sms.ivalues.ISmsTemplateValue;
-
-import org.junit.Before;
-import org.junit.Test;
+package ngves.lfinfo.core.sms.service.interfaces;
 
 import com.ai.appframe2.service.ServiceFactory;
+import ngves.lfinfo.core.sms.SmsConstant;
+import ngves.lfinfo.core.sms.bo.SmsTemplateBean;
+import ngves.lfinfo.core.sms.dao.interfaces.IBusiSmsTemplateDAO;
+import ngves.lfinfo.core.sms.ivalues.IBusiSmsTemplateValue;
+import ngves.lfinfo.core.sms.ivalues.ISmsTemplateValue;
+import org.junit.Before;
+import org.junit.Test;
 
 public class IBusiSmsTemplateSrvTest {
 	private IBusiSmsTemplateSrv busiSmsTempService;
@@ -18,7 +16,7 @@ public class IBusiSmsTemplateSrvTest {
 	public void init(){
 		System.out.println("start");
 		busiSmsTempService = (IBusiSmsTemplateSrv)ServiceFactory.getService(SmsConstant.BUSI_SMS_TEMPLATE_SRV);
-		busiSmsTemplateDAO= (IBusiSmsTemplateDAO)ServiceFactory.getService("ngves.asiainfo.core.BusiSmsTemplateDAO");
+		busiSmsTemplateDAO= (IBusiSmsTemplateDAO)ServiceFactory.getService("ngves.lfinfo.core.BusiSmsTemplateDAO");
 	}
 	@Test
 	public void testGetBusiSmsTemplate() throws NumberFormatException, Exception {

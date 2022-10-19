@@ -1,16 +1,14 @@
-package ngves.asiainfo.core.ware.dao.interfaces;
+package ngves.lfinfo.core.ware.dao.interfaces;
+
+import com.ai.appframe2.service.ServiceFactory;
+import ngves.lfinfo.core.ware.ivalues.IWareInfoPortalValue;
+import org.junit.Test;
 
 import static org.junit.Assert.fail;
 
-import ngves.asiainfo.core.ware.ivalues.IWareInfoPortalValue;
-
-import org.junit.Test;
-
-import com.ai.appframe2.service.ServiceFactory;
-
 public class IWareInfoDAOTest {
 	
-	IWareInfoDAO dao = (IWareInfoDAO) ServiceFactory.getService("ngves.asiainfo.core.wareInfoDAO");
+	IWareInfoDAO dao = (IWareInfoDAO) ServiceFactory.getService("ngves.lfinfo.core.wareInfoDAO");
 
 	@Test
 	public void testGetWareProvDeliverFee() {

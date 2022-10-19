@@ -1,15 +1,14 @@
 /**
- * Copyright (c) 2009 asiainfo.com
+ * Copyright (c) 2009 lfinfo.com
  */
-package com.asiainfo.test;
+package com.lfinfo.test;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ai.appframe2.common.ServiceManager;
 import org.junit.internal.runners.model.MultipleFailureException;
 import org.junit.runners.model.Statement;
-
-import com.ai.appframe2.common.ServiceManager;
 
 /**
  * @author wzg

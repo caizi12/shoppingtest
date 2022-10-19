@@ -1,11 +1,10 @@
 /**
- * Copyright (c) 2009 asiainfo.com
+ * Copyright (c) 2009 lfinfo.com
  */
-package com.asiainfo.test;
-
-import org.junit.runners.model.Statement;
+package com.lfinfo.test;
 
 import com.ai.appframe2.common.ServiceManager;
+import org.junit.runners.model.Statement;
 
 /**
  * @author wzg

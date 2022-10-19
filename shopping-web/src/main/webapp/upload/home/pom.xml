@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
-		<groupId>com.asiainfo</groupId>
+		<groupId>com.lfinfo</groupId>
 		<artifactId>ngves_proto</artifactId>
 		<version>3.0.2</version>
 		<relativePath>../ngves_proto/pom.xml</relativePath>
@@ -69,13 +69,13 @@
 			<version>2.0</version>
 		</dependency>
 		<dependency>
-			<groupId>asiainfo</groupId>
-			<artifactId>asiainfo-appframe</artifactId>
+			<groupId>lfinfo</groupId>
+			<artifactId>lfinfo-appframe</artifactId>
 			<version>5.1-final</version>
 		</dependency>
 		<dependency>
-			<groupId>asiainfo</groupId>
-			<artifactId>asiainfo-secframe</artifactId>
+			<groupId>lfinfo</groupId>
+			<artifactId>lfinfo-secframe</artifactId>
 			<version>5.11</version>
 		</dependency>
 		<dependency>

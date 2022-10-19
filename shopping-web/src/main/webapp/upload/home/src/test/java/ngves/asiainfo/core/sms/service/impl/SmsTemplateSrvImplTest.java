@@ -1,12 +1,10 @@
-package ngves.asiainfo.core.sms.service.impl;
-import ngves.asiainfo.core.sms.SmsConstant;
-import ngves.asiainfo.core.sms.ivalues.ISmsTemplateValue;
-import ngves.asiainfo.core.sms.service.interfaces.ISmsTemplateSrv;
-
+package ngves.lfinfo.core.sms.service.impl;
+import com.ai.appframe2.service.ServiceFactory;
+import ngves.lfinfo.core.sms.SmsConstant;
+import ngves.lfinfo.core.sms.ivalues.ISmsTemplateValue;
+import ngves.lfinfo.core.sms.service.interfaces.ISmsTemplateSrv;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.ai.appframe2.service.ServiceFactory;
 
 public class SmsTemplateSrvImplTest {
 

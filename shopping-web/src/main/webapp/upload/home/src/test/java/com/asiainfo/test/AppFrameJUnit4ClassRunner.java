@@ -1,7 +1,7 @@
 /**
- * Copyright (c) 2009 asiainfo.com
+ * Copyright (c) 2009 lfinfo.com
  */
-package com.asiainfo.test;
+package com.lfinfo.test;
 
 import org.junit.internal.runners.model.MultipleFailureException;
 import org.junit.runners.BlockJUnit4ClassRunner;

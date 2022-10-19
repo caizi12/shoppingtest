@@ -1,12 +1,11 @@
-package ngves.asiainfo.core.sms.service.impl;
-
-import static org.junit.Assert.fail;
-import ngves.asiainfo.core.sms.SmsConstant;
-import ngves.asiainfo.core.sms.service.interfaces.ISmsTaskSrv;
-
-import org.junit.Test;
+package ngves.lfinfo.core.sms.service.impl;
 
 import com.ai.appframe2.service.ServiceFactory;
+import ngves.lfinfo.core.sms.SmsConstant;
+import ngves.lfinfo.core.sms.service.interfaces.ISmsTaskSrv;
+import org.junit.Test;
+
+import static org.junit.Assert.fail;
 
 public class SmsTaskSrvImplTest {
 	

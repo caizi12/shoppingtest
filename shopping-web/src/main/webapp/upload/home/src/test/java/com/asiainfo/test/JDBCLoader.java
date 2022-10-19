@@ -3,7 +3,7 @@
  * Last Modified By $Author: wangzg $ @ $Date: 2009/04/21 06:27:53 $
  * Current CVS Version Number: $Revision: 1.1 $
  */
-package com.asiainfo.test;
+package com.lfinfo.test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

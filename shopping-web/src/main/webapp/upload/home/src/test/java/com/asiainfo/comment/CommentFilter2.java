@@ -1,4 +1,4 @@
-package com.asiainfo.comment;
+package com.lfinfo.comment;
 
 /**
  * 普通过滤法

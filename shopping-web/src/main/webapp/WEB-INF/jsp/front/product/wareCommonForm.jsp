@@ -1,35 +1,35 @@
 <%@ page import="java.util.*" contentType="text/html; charset=utf-8"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ page import="ngves.asiainfo.portal.ware.web.WareDetailAction"%>
-<%@ page import="ngves.asiainfo.portal.ware.domain.WareAllElementBean"%>
-<%@ page import="ngves.asiainfo.portal.ware.domain.DWareParticularBean"%>
-<%@ page import="ngves.asiainfo.portal.ware.ivalues.IQBOWareImageValue"%>
-<%@ page import="ngves.asiainfo.portal.PortalConstant"%>
-<%@ page import="ngves.asiainfo.portal.ware.domain.DWareDescBean"%>
-<%@ page import="ngves.asiainfo.util.StringUtil" %>
-<%@ page import="ngves.asiainfo.core.ware.WareConstant"%>
-<%@ page import="ngves.asiainfo.portal.util.PortalHttpUtil"%>
-<%@ page import="ngves.asiainfo.core.CoreConstant"%>
+<%@ page import="ngves.lfinfo.portal.ware.web.WareDetailAction"%>
+<%@ page import="ngves.lfinfo.portal.ware.domain.WareAllElementBean"%>
+<%@ page import="ngves.lfinfo.portal.ware.domain.DWareParticularBean"%>
+<%@ page import="ngves.lfinfo.portal.ware.ivalues.IQBOWareImageValue"%>
+<%@ page import="ngves.lfinfo.portal.PortalConstant"%>
+<%@ page import="ngves.lfinfo.portal.ware.domain.DWareDescBean"%>
+<%@ page import="ngves.lfinfo.util.StringUtil" %>
+<%@ page import="ngves.lfinfo.core.ware.WareConstant"%>
+<%@ page import="ngves.lfinfo.portal.util.PortalHttpUtil"%>
+<%@ page import="ngves.lfinfo.core.CoreConstant"%>
 <%@ page import="org.apache.commons.lang.StringUtils"%>
-<%@ page import="ngves.asiainfo.portal.user.model.RegionBean"%>
-<%@ page import="ngves.asiainfo.portal.common.util.RegionInfoUtil"%>
-<%@ page import="ngves.asiainfo.portal.ware.WareParamConstant"%>
+<%@ page import="ngves.lfinfo.portal.user.model.RegionBean"%>
+<%@ page import="ngves.lfinfo.portal.common.util.RegionInfoUtil"%>
+<%@ page import="ngves.lfinfo.portal.ware.WareParamConstant"%>
 <%@ page import="com.google.gson.Gson"%>
-<%@ page import="ngves.asiainfo.portal.order.OrderConstant"%>
-<%@ page import="ngves.asiainfo.portal.user.model.SessionInfoValue"%>
-<%@ page import="ngves.asiainfo.portal.common.util.SNAUtil"%>
-<%@ page import="ngves.asiainfo.portal.ware.domain.DescInfo"%>
-<%@ page import="ngves.asiainfo.portal.order.util.UserOrderUtil"%>
-<%@ page import="ngves.asiainfo.CommnConstant"%>
-<%@ page import="ngves.asiainfo.portal.util.WareViewUtil"%>
-<%@ page import="ngves.asiainfo.portal.common.util.SysDataUtil" %>
-<%@ page import="ngves.asiainfo.portal.common.util.WareShowUtil"%>
+<%@ page import="ngves.lfinfo.portal.order.OrderConstant"%>
+<%@ page import="ngves.lfinfo.portal.user.model.SessionInfoValue"%>
+<%@ page import="ngves.lfinfo.portal.common.util.SNAUtil"%>
+<%@ page import="ngves.lfinfo.portal.ware.domain.DescInfo"%>
+<%@ page import="ngves.lfinfo.portal.order.util.UserOrderUtil"%>
+<%@ page import="ngves.lfinfo.CommnConstant"%>
+<%@ page import="ngves.lfinfo.portal.util.WareViewUtil"%>
+<%@ page import="ngves.lfinfo.portal.common.util.SysDataUtil" %>
+<%@ page import="ngves.lfinfo.portal.common.util.WareShowUtil"%>
 
-<%@ page import=" ngves.asiainfo.portal.ware.service.interfaces.IWareDetailSrv"%>
-<%@ page import="ngves.asiainfo.portal.ware.WareSrvConstant"%>
-<%@ page import="ngves.asiainfo.portal.ware.ivalues.IWareInfoPortalValue"%>
+<%@ page import=" ngves.lfinfo.portal.ware.service.interfaces.IWareDetailSrv"%>
+<%@ page import="ngves.lfinfo.portal.ware.WareSrvConstant"%>
+<%@ page import="ngves.lfinfo.portal.ware.ivalues.IWareInfoPortalValue"%>
 <%@ page import=" com.ai.appframe2.service.ServiceFactory"%>
-<%@page import="ngves.asiainfo.portal.ware.model.WareShowFunc"%>
+<%@page import="ngves.lfinfo.portal.ware.model.WareShowFunc"%>
 
 <!DOCTYPE html>
 <%
@@ -73,7 +73,7 @@
     String wareStorageType = ware.getWare_storage_type();
     String detailAction = path + "/portal/ware/web/WareDetailAction?";
     //礼品归属省份名称
-    String wareProvinceName= ngves.asiainfo.interfaces.hp.ProvinceUtil.lessProvincesList.get(wareProCode);
+    String wareProvinceName= ngves.lfinfo.interfaces.hp.ProvinceUtil.lessProvincesList.get(wareProCode);
     
     SessionInfoValue sessionInfoValue = SNAUtil.getLoginUserInfo(request);
     String userProvinceCode = "bj";

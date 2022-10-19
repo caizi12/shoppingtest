@@ -580,7 +580,7 @@ public class FileUtil {
 	 * 先将数据写入缓冲，在通过flush()让缓冲区内容写入文件，高效做法
 	 * @param fileName 文件名称
 	 * @param datas 待写入数据集
-	 * @author wenglin@asiainfo-linkage.com 
+	 * @author wenglin@
 	 */
 	public static void writeFile(String fileName, List<String> datas) throws IOException{
 		FileWriter writer = null;
@@ -621,7 +621,7 @@ public class FileUtil {
 	 * 用于读取字符流。要读取原始字节流，请考虑使用 FileInputStream 使用缓冲，高效的做法
 	 * @param fileName 文件名称
 	 * @return
-	 * @author wenglin@asiainfo-linkage.com 
+	 * @author wenglin@
 	 */
 	public static List<String> readFile(String fileName) throws IOException{
 		FileReader fr = null;

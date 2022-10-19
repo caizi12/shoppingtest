@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>   
-<%@ page import="ngves.asiainfo.portal.common.util.SNAUtil"%>
-<%@ page import="ngves.asiainfo.portal.ware.web.WareTopAction"%>
-<%@ page import="ngves.asiainfo.portal.user.model.SessionInfoValue"%>
-<%@ page import="ngves.asiainfo.portal.ware.WareParamConstant"%>
-<%@ page import="ngves.asiainfo.portal.common.util.UrlUtil"%>
-<%@ page import="ngves.asiainfo.portal.ware.ivalues.IWareInfoPortalValue"%>
-<%@ page import="ngves.asiainfo.portal.PortalConstant"%>
+<%@ page import="ngves.lfinfo.portal.common.util.SNAUtil"%>
+<%@ page import="ngves.lfinfo.portal.ware.web.WareTopAction"%>
+<%@ page import="ngves.lfinfo.portal.user.model.SessionInfoValue"%>
+<%@ page import="ngves.lfinfo.portal.ware.WareParamConstant"%>
+<%@ page import="ngves.lfinfo.portal.common.util.UrlUtil"%>
+<%@ page import="ngves.lfinfo.portal.ware.ivalues.IWareInfoPortalValue"%>
+<%@ page import="ngves.lfinfo.portal.PortalConstant"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ page import="ngves.asiainfo.portal.common.util.WareShowUtil"%>
+<%@ page import="ngves.lfinfo.portal.common.util.WareShowUtil"%>
 <%
     String path=request.getContextPath();
     String topType = request.getParameter("topType");
